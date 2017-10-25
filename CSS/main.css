@@ -12,7 +12,7 @@
 }
 
 body {
-  padding-top: 120px;
+  padding-top: 85px;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -24,11 +24,10 @@ img {
 }
 
 .container {
-  width: 1200px;
+
   margin-right: auto;
   margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+
 }
 
 .container:before, .container:after {
@@ -81,7 +80,6 @@ a:hover {
   background: white;
   height: 100px;
   width: 100%;
-  outline: 1px solid red;
 }
 .scroll a{
   position: relative;
@@ -98,6 +96,7 @@ a:hover {
   width: 70px;
   height: 70px;
   right: 150px;
+  top: 10px;
 }
 
 /* Estilos del footer*/
@@ -110,4 +109,39 @@ footer p{
   margin-bottom: 0px;
   text-align: center;
   font-size: 18px;
+}
+/*Estilos de la primera sección*/
+.first{
+  text-align: center;
+  color: white;
+  position: relative;
+  transform: translateY(-150%);
+}
+figure{
+  margin: 0;
+}
+#image1{
+  width: 100%;
+}
+
+/*Estilos del botón*/
+.first a{
+  position: relative;
+  padding: 10px;
+  background-color: green;
+}
+/*Estilos de la segunda sección*/
+#second{
+  position: relative;
+  top: 0px;
+  background-color: coral;
+  color: white;
+  text-align: center;
+}
+#third{
+padding-top: 20px;
+  text-align: center;
+}
+#image2{
+  width: 700px;
 }
