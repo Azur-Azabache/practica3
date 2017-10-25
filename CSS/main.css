@@ -143,16 +143,30 @@ padding-top: 20px;
   text-align: center;
 }
 #image2{
-  width: 700px;
+  width: 800px;
 }
 /*Estilos de la tabla de imágenes y texto*/
 .table img{
   width: 250px;
   height: 250px;
   display: inline-block;
-  margin: 25px;
+float: left;
+  margin: 40px;
+
+
 }
 .table span{
-  position: absolute;
-  
+position: absolute;
+text-align: center;
+
+}
+h1{
+  font-size: 40px;
+}
+#second image{
+
+  width: 200px;
+  height: 200px;
+}
+
 }
